@@ -14,7 +14,7 @@ namespace Simple_Table_Permutation
 
         private void AboutBox_Load(object sender, EventArgs e)
         {
-            //pictureBox1.Image = Image.FromFile("Images/TUSUR_logo.png");
+            
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             label4.Text = Assembly.GetExecutingAssembly().GetName().Version.ToString();
         }
